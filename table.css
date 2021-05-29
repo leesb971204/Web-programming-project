@@ -1,0 +1,19 @@
+.tablemenu td{
+    text-align: center;
+    width: 200px;
+    background-color: rgb(251, 251, 251);
+ }
+ table tbody tr:nth-child(n+2) td{
+     text-align: center;
+     height: 50px;
+ }
+ table { 
+     border-collapse:collapse;
+ }
+ table tbody tr:nth-child(n+2){
+     border-bottom: 1px solid rgb(239, 239, 239);
+ }
+ table tbody tr:nth-child(n+2) td:nth-child(2){
+     text-align: left;
+     width: 300px;
+ }

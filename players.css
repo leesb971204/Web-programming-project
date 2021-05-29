@@ -1,0 +1,33 @@
+.main h1 {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main div:nth-child(n+1) div {
+    float: left;
+    border: 1px solid rgb(152, 197, 233);
+    margin-right: 15px;
+}
+
+#noneImg {
+    width: 188px;
+}
+
+.main div:nth-child(n+1) ul div:nth-child(n+1) li:first-child{
+     transition: 0.3s;
+}
+
+.main div:nth-child(n+1) ul div:nth-child(n+1) li:first-child:hover {
+    background-color: rgb(152, 197, 233);
+    opacity: 1;
+    cursor: pointer;
+}
+
+#playerName {
+    padding-bottom: 5px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}

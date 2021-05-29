@@ -1,0 +1,48 @@
+.img1 {
+    width: 900px;
+    height: 700px;
+}
+
+.img2 {
+    width: 590px;
+    height: 500px;
+}
+
+.mainImg1 {
+    float: left;
+}
+
+.mainImg2 {
+    float: right;
+}
+
+.mainImg1 :hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.main .clock h4{
+    position: absolute;
+     right: 0; 
+     top:95px;
+}
